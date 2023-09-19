@@ -6,7 +6,7 @@
   "scripts": {
     "start-server": "json-server --watch mocks/db.json --port 3000",
     "dev": "npm run start-server & vite",
-    "build": "tsc && vite build",
+    "build": "npm test & tsc && vite build",
     "test": "jest",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
