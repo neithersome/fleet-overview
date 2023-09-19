@@ -1,6 +1,6 @@
 import { Box, Collapse, ListItemButton, ListItemText } from "@mui/material";
 import { useMemo, useState } from "react";
-import Label from "../../shared/api/components/Label";
+import Label from "../../shared/components/Label";
 import { ExpandLess, ExpandMore } from "@mui/icons-material";
 import { EquipmentType } from ".";
 
